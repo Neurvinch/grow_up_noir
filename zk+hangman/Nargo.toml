@@ -1,0 +1,6 @@
+[package]
+name = "zk+hangman"
+type = "bin"
+authors = [""]
+
+[dependencies]
