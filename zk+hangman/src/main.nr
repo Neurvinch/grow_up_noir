@@ -20,7 +20,7 @@ fn main(
         word_bytes[i] = word[i] as u8;
     }
 
-    let hash_bytes = std::hash::keccak256(word_bytes, 10);
+    let hash_bytes: [u8; 32] = std::hash::keccak256(word_bytes, 10);
 
     let mut computed_hash = 0 as Field;
 
