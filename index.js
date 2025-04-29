@@ -14,6 +14,9 @@ document.getElementById("admin_submit").addEventListener("click", async () => {
     "0x0000000000000000000000000000000000000000"
   );
 
+
+  
+
   await submitAdminProof(proofBytes, publicInputs);
   show("results", rawProof);
 });
